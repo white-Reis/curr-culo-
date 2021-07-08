@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.container-card {
+    padding: 50px 0px 50px 0px;
+    margin: 2em;}
+
+    .img-perfil-card {
+display: flex;
+justify-content: center;}
+
+.card-title {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr {
+    height: 1px;
+    background-color: black;
+width: 30%;}
+
+.card-image {
+border:black;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+margin-top: 1em;
+}
+
+.card-perfil {
+    border: black;
+background-color: #19def0 !important;
+box-shadow:0px 0px 5px  cornsilk;}
+
+.botoes-card {
+display: flex;
+justify-content: center;}
+
+#btn-sobre {
+
+    border:  2px solid black;
+border-radius: 15px;
+padding:  5px 20px;
+background-color: #fff !important;
+font-weight: 600;}
+
+#btn-projetos {
+
+border:  2px solid black;
+border-radius: 15px;
+padding:  5px 20px;
+background-color: #fff !important;
+font-weight: 600;}
+
+    .icon-redes-socias {
+        text-align: center;
+        padding: 10px;
+    }
+    .title-text {
+        margin-top: 1em;
+        font-weight: 600;
+    }
+    .title-sutitle {
+        margin: 1em 0;
+    }
+    .text{
+        padding: 5px 17px;
+    }
+
+    .links-redes-socias {
+        text-decoration: none;
+    }
+    .links-redes-socias i {
+        color: black;
+        font-size: 25px;
+        padding: 10px;}
+
+        #footer-elementos {
+            display: flex;
+            justify-content: space-between;
+        }
+        #footer-elementos .email {
+            padding: 15px 0px 15px 0px;
+        }
+
+    @media (min-width: 900px) {
+        .container-linear {
+
+                background: linear-gradient(to left, #fff(0, 247, 255) 60%, #19def0 40%);
+            }
+
+            .card-col {
+            display: flex;
+           justify-content: flex-end;
+           align-content: center;
+           background-color:#fff !important;
+           box-shadow: -10px 5px 10px 0px #292a2d;
+        }
+
+        .card-perfil { background-color: #fff !important;
+        color: #292a2d;
+        box-shadow: none !important;
+        width: 18em;
+        border: none !important;}
+        
+        .btn-card {
+            color: black !important;}
+
+            .text-body {
+                box-shadow: none;
+            }
+.text {
+    max-width: 430px;
+    vertical-align: middle;
+    margin-top: 2em;
+}
+#footer-elementos {
+    display: flex !important;
+    justify-content:  center !important;
+}    
+    }
